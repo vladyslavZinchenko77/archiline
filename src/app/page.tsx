@@ -1,12 +1,16 @@
 import Image from 'next/image';
 
 import Header from '@/components/ui/Header';
+import Hero from '@/components/ui/Hero';
+
+import './globals.scss';
 
 export default function Home() {
   return (
     <>
       <Header />
       <main>
+        <Hero />
         {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
