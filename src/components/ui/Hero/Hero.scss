@@ -1,0 +1,26 @@
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__left{
+    width: 50%;
+    .hero__left-text-wrap{
+        padding: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column; 
+    }
+    
+}
+
+.hero__right{
+    width: 50%;
+    .hero__right-img{
+        width: 100%;
+        height: auto;
+    }
+}
