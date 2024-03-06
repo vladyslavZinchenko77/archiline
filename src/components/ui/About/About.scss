@@ -1,0 +1,28 @@
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 48px 0 48px;
+    .about__wrap{
+        max-width: 768px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.about__title-wrap{
+    width: 50%;
+    
+}
+
+
+.about__text-wrap{
+    width: 50%;
+    .about__text-item{
+        padding-top: 24px;
+        &:first-child{
+            padding: 0;
+        }
+    }
+}
