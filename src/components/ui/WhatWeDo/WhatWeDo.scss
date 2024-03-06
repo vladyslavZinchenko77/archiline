@@ -1,0 +1,28 @@
+
+
+.wedo{
+    display: flex;
+    justify-content: center;
+    padding: 48px 0 48px;
+    .wedo__wrap{
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .wedo__title{
+            margin-top: 12px;
+        }
+    }
+}
+
+.wedo__list{
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .wedo__list-item{
+        list-style: none;
+        margin-top: 24px;
+        
+    }
+}
