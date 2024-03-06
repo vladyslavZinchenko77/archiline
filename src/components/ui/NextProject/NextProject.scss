@@ -1,0 +1,25 @@
+
+
+.next-proj{
+    display: flex;
+    justify-content: center;
+    padding: 72px 0 72px;
+    .next-proj__wrap{
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.next-proj__wrap{
+    .next-proj__text-text{}
+    .next-proj__text-title{
+        max-width: 400px;
+        margin-top: 12px;
+    }
+}
+
+.next-proj__link{
+    text-decoration: none;
+}
