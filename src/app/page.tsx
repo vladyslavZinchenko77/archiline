@@ -4,6 +4,7 @@ import Header from '@/components/ui/Header';
 import Hero from '@/components/ui/Hero';
 import About from '@/components/ui/About';
 import WhatWeDo from '@/components/ui/WhatWeDo';
+import Customers from '@/components/ui/Customers';
 
 import './globals.scss';
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <About />
         <WhatWeDo />
+        <Customers />
         {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
