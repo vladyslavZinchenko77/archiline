@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.logo{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    .logo__text{
+        color: $black-color;
+        margin-left: 8px;
+    }
+}
