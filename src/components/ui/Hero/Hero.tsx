@@ -8,11 +8,9 @@ const Hero: FC = () => {
     <section className="hero">
       <div className="hero__left">
         <div className="hero__left-text-wrap">
-          <h3 className="left__title">Archiline</h3>
-          <h1 className="left__sub-title">
-            The home of beautiful architecture.
-          </h1>
-          <p className="left__text">
+          <p className="general-text left__sub-title">Archiline</p>
+          <h1 className="left__title">The home of beautiful architecture.</h1>
+          <p className="general-text left__text">
             We are an architecture firm with a focus on beautiful but functional
             design. At its heart, we believe design is about usability and
             accessibility — these are the guiding principles for our work. Read

@@ -1,11 +1,13 @@
 import { FC } from 'react';
 
+import Logo from '@/components/common/Logo';
+
 import './Header.scss';
 
 const Header: FC = () => {
   return (
     <header className="header">
-      <a href="/">Archiline</a>
+      <Logo />
       <nav className="header__nav">
         <ul className="header__nav-list">
           <li className="header__nav-list--item">

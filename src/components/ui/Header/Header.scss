@@ -1,4 +1,7 @@
-.header{
+@import "../../../styles/variables.scss";
+
+.header{ 
+    padding: 20px 12px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,7 +10,7 @@
 
 
 .header__nav{
-    padding: 12px 0 12px;
+   
     .header__nav-list{
         display: flex;
         .header__nav-list--item{
@@ -15,6 +18,12 @@
             .nav__list-item--link{
                 padding-right: 24px;
                 text-decoration: none;
+                color: $black-color;
+                transition: 0.2s;
+                &:hover{
+                    transition: 0.2s;
+                    color: $light-brown-color;
+                }
             }
         }
     }
