@@ -1,0 +1,22 @@
+@import "../styles/variables.scss";
+
+
+.link{
+    text-decoration: none;
+    color: $black-color;
+    transition: 0.2s;
+    &:hover{
+        transition: 0.2s;
+        color: $light-brown-color;
+    }
+}
+
+.general-text{
+    color: $dark-brown-color;
+}
+
+
+.general-title{
+    color: $black-color;
+    font-size: 500;
+}

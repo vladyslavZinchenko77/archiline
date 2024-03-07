@@ -1,8 +1,9 @@
-
+@import "../../../styles/variables.scss";
 .hero{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $light-brown-color;
 }
 
 .hero__left{
@@ -13,6 +14,13 @@
         justify-content: center;
         align-items: flex-start;
         flex-direction: column; 
+        .left__title,
+        .left__sub-title{
+            margin-top: 12px;
+        }
+        .left__title{
+            font-weight: 500;
+        }
     }
     
 }
@@ -22,5 +30,16 @@
     .hero__right-img{
         width: 100%;
         height: auto;
+    }
+}
+
+.left__link{
+    margin-top: 24px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: $dark-brown-color;
+    &:hover{
+        color: #fff;
+        transition: 0.2s;
     }
 }
