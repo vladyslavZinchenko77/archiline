@@ -7,7 +7,6 @@ import './Header.scss';
 const Header: FC = () => {
   return (
     <header className="header">
-      {/* <a href="/">Archiline</a> */}
       <Logo />
       <nav className="header__nav">
         <ul className="header__nav-list">

@@ -1,0 +1,18 @@
+
+@import "../../../styles/variables.scss";
+
+.employee{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    .employee__text{
+        margin-left: 8px;
+        .employee__text-name{
+            color: $dark-brown-color;
+        }
+        .employee__text-title{
+            color: $semi-brown-color;
+        }
+
+    }
+}
