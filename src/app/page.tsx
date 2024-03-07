@@ -8,6 +8,7 @@ import Customers from '@/components/ui/Customers';
 import NextProject from '@/components/ui/NextProject';
 import Projects from '@/components/ui/Projects';
 import Team from '@/components/ui/Team';
+import Footer from '@/components/ui/Footer';
 
 import './globals.scss';
 
@@ -23,6 +24,7 @@ export default function Home() {
         <NextProject />
         <Projects />
         <Team />
+        <Footer />
         {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
