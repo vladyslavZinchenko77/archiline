@@ -1,0 +1,41 @@
+.projects{
+        display: flex;
+        justify-content: center;
+    .projects__wrap{
+        width: 1200px;
+    }
+}
+
+.projects__text-wrap{
+    max-width: 600px;
+    .projects__title{}
+
+    .projects__text{
+        margin-top: 12px;
+    }
+}
+
+
+.projects__list{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .projects__list-item{
+        list-style: none;
+        .projects__list-item--img{
+            max-width: 380px;
+            height: auto;
+        }
+    }
+}
+
+.projects__link-wrap{
+    display: flex;
+    justify-content: center;
+    padding: 24px 0 24px;
+
+    .projects__link{
+        text-decoration: none;
+
+    }
+}
