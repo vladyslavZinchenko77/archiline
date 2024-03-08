@@ -4,6 +4,7 @@ import Header from '@/components/ui/Header';
 import Hero from '@/components/ui/Hero';
 import About from '@/components/ui/About';
 import WhatWeDo from '@/components/ui/WhatWeDo';
+import ImgSection from '@/components/common/ImgSection';
 import Customers from '@/components/ui/Customers';
 import NextProject from '@/components/ui/NextProject';
 import Projects from '@/components/ui/Projects';
@@ -20,8 +21,26 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <ImgSection
+          width={1600}
+          height={600}
+          url={'/img/interior3.jpg'}
+          alt="interior"
+        />
         <WhatWeDo />
+        <ImgSection
+          width={1600}
+          height={600}
+          url={'/img/interior1.jpg'}
+          alt="interior"
+        />
         <Customers />
+        <ImgSection
+          width={1600}
+          height={600}
+          url={'/img/interior2.jpg'}
+          alt="interior"
+        />
         <NextProject />
         <Projects />
         <Team />

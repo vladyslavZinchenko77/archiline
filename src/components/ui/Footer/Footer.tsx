@@ -7,7 +7,7 @@ const Footer: FC = () => {
     <footer className="footer">
       <div className="footer__wrap">
         <div className="footer__text">
-          <h2 className="footer__text-title">Archiline</h2>
+          <h2 className="general-title footer__text-title">Archiline</h2>
           <p className="footer__text-text">
             All rights reserved Archiline, Inc.
           </p>

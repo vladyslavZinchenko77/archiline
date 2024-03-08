@@ -7,8 +7,8 @@ const NextProject: FC = () => {
     <section className="next-proj">
       <div className="next-proj__wrap">
         <div className="next-proj__text">
-          <p className="next-proj__text-text">Get in touch</p>
-          <h2 className="next-proj__text-title">
+          <p className="general-text next-proj__text-text">Get in touch</p>
+          <h2 className=" general-title next-proj__text-title">
             Think we would be a good fit for your next project?
           </h2>
         </div>
