@@ -9,7 +9,7 @@ const Customers = () => {
       <div className="customers__wrap">
         <div className="customers__left">
           <p>prior clients</p>
-          <h2>Happy customers.</h2>
+          <h2 className="general-title">Happy customers.</h2>
           <p>
             Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
             Vestibulum sit amet urna turpis. Mauris euismod elit et nisi

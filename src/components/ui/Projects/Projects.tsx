@@ -8,8 +8,8 @@ const Projects: FC = () => {
     <section className="projects">
       <div className="projects__wrap">
         <div className="projects__text-wraps">
-          <h2 className="projects__title">Featured projects</h2>
-          <p className="projects__text">
+          <h2 className="general-title projects__title">Featured projects</h2>
+          <p className="general-text projects__text">
             Some of the latest and greatest projects from us here at
             Wishbone+Partners.
           </p>

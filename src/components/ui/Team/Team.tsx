@@ -7,8 +7,8 @@ const Team: FC = () => {
     <section className="team">
       <div className="team__wrap">
         <div className="team__text">
-          <h2 className="team__text-title">Meet our team</h2>
-          <p className="team__text-text">
+          <h2 className="general-title team__text-title">Meet our team</h2>
+          <p className="general-text team__text-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique. Duis cursus, mi quis.
           </p>
