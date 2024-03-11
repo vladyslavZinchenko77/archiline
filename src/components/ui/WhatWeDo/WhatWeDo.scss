@@ -23,6 +23,12 @@
     .wedo__list-item{
         list-style: none;
         margin-top: 24px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .wedo__list-item--text{
+            margin-top: 12px;
+        }
         
     }
 }
