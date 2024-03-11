@@ -1,6 +1,7 @@
 import { FC } from 'react';
 
 import Logo from '@/components/common/Logo';
+import Link from 'next/link';
 
 import './Header.scss';
 
@@ -11,29 +12,25 @@ const Header: FC = () => {
       <nav className="header__nav">
         <ul className="header__nav-list">
           <li className="header__nav-list--item">
-            <a className="nav__list-item--link" href="#">
+            <Link className="nav__list-item--link" href="/projects">
               Projects
-            </a>
+            </Link>
           </li>
           <li className="header__nav-list--item">
-            <a className="nav__list-item--link" href="#">
+            <Link className="nav__list-item--link" href="/about">
               About
-            </a>
+            </Link>
           </li>
+
           <li className="header__nav-list--item">
-            <a className="nav__list-item--link" href="#">
-              News
-            </a>
-          </li>
-          <li className="header__nav-list--item">
-            <a className="nav__list-item--link" href="#">
+            <Link className="nav__list-item--link" href="/team">
               Team
-            </a>
+            </Link>
           </li>
           <li className="header__nav-list--item">
-            <a className="nav__list-item--link" href="#">
-              Contact
-            </a>
+            <Link className="nav__list-item--link" href="/contacts">
+              Contacts
+            </Link>
           </li>
         </ul>
       </nav>
