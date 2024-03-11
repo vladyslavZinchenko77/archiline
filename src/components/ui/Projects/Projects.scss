@@ -1,6 +1,10 @@
+@import "../../../styles/variables.scss";
+
 .projects{
         display: flex;
         justify-content: center;
+        background-color: $light-brown-color;
+        padding: 24px 0 24px;
     .projects__wrap{
         width: 1200px;
     }

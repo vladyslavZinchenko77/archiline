@@ -11,11 +11,19 @@
 
 .team__text{
     width: 50%;
+    
     .team__text-title{}
     .team__text-text{}
 }
 
 .team__list{
     width: 50%;
-    .team__list-item{}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .team__list-item{
+        list-style: none;
+        display: flex;
+        justify-content:  flex-start;
+        padding: 12px 0 0;
+    }
 }

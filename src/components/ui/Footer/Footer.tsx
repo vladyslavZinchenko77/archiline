@@ -1,5 +1,9 @@
 import React, { FC } from 'react';
 
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
 import './Footer.scss';
 
 const Footer: FC = () => {
@@ -13,9 +17,15 @@ const Footer: FC = () => {
           </p>
         </div>
         <div className="footer__socials">
-          <a href="">linkedin</a>
-          <a href="">instagram</a>
-          <a href="">facebook</a>
+          <a href="">
+            <LinkedInIcon />
+          </a>
+          <a href="">
+            <InstagramIcon />
+          </a>
+          <a href="">
+            <FacebookIcon />
+          </a>
         </div>
       </div>
     </footer>

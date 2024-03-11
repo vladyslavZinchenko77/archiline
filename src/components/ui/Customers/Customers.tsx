@@ -8,9 +8,11 @@ const Customers = () => {
     <section className="customers">
       <div className="customers__wrap">
         <div className="customers__left">
-          <p>prior clients</p>
-          <h2 className="general-title">Happy customers.</h2>
-          <p>
+          <p className="customers__left-text">prior clients</p>
+          <h2 className="general-title customers__left-title">
+            Happy customers.
+          </h2>
+          <p className="customers__left-text">
             Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
             Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
             ultrices, ut faucibus orci tincidunt.

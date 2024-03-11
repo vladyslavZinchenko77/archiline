@@ -17,6 +17,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    .customers__left-title{
+        color: #fff;
+    }
+    .customers__left-text{
+        color: #fff;
+        padding-top: 8px;
+    }
 }
 
 .customers__right {
