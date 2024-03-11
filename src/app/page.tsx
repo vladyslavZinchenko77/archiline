@@ -41,9 +41,10 @@ export default function Home() {
           url={'/img/interior2.jpg'}
           alt="interior"
         />
-        <NextProject />
+        {/* <NextProject /> */}
         <Projects />
         <Team />
+        <NextProject />
         <Footer />
       </main>
     </>

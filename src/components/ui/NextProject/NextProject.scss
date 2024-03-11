@@ -1,9 +1,10 @@
-
+@import "../../../styles/variables.scss";
 
 .next-proj{
     display: flex;
     justify-content: center;
     padding: 72px 0 72px;
+    background-color: $semi-brown-color;
     .next-proj__wrap{
         width: 1200px;
         display: flex;

@@ -1,5 +1,8 @@
 import React, { FC } from 'react';
 
+import Employee from '@/components/common/Employee';
+import alex from '../../../../public/img/alex.jpg';
+
 import './Team.scss';
 
 const Team: FC = () => {
@@ -14,12 +17,28 @@ const Team: FC = () => {
           </p>
         </div>
         <ul className="team__list">
-          <li className="team__list-item"></li>
-          <li className="team__list-item"></li>
-          <li className="team__list-item"></li>
-          <li className="team__list-item"></li>
-          <li className="team__list-item"></li>
-          <li className="team__list-item"></li>
+          <li className="team__list-item">
+            <Employee name="Alex" title="CEO" url={alex} alt="Alex" />
+          </li>
+          <li className="team__list-item">
+            <Employee name="Nickolay" title="Owner" alt="Nickolay" />
+          </li>
+          <li className="team__list-item">
+            <Employee
+              name="Dmytro"
+              alt="Dmytro"
+              title="Construction engineer"
+            />
+          </li>
+          <li className="team__list-item">
+            <Employee name="Yuri" title="Architect" alt="Yuri" />
+          </li>
+          <li className="team__list-item">
+            <Employee name="Tetiana" title="Architect" alt="Tetiana" />
+          </li>
+          <li className="team__list-item">
+            <Employee name="Valentina" title="UI/UX Designer" alt="Valentina" />
+          </li>
         </ul>
       </div>
     </section>
