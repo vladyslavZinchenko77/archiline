@@ -4,10 +4,18 @@
     justify-content: center;
     align-items: center;
     background-color: $light-brown-color;
+    @media screen and (max-width: $mobile-max) {
+        flex-direction: column;
+        
+    }
 }
 
 .hero__left{
     width: 50%;
+    @media screen and (max-width: $mobile-max) {
+        width: 100%;
+        
+    }
     .hero__left-text-wrap{
         padding: 60px;
         display: flex;
@@ -27,6 +35,10 @@
 
 .hero__right{
     width: 50%;
+    @media screen and (max-width: $mobile-max) {
+        width: 100%;
+        
+    }
     .hero__right-img{
         width: 100%;
         height: auto;
