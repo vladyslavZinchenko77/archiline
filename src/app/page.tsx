@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      {/* <main>
         <Hero />
         <About />
         <ImgSection
@@ -41,12 +41,11 @@ export default function Home() {
           url={'/img/interior2.jpg'}
           alt="interior"
         />
-        {/* <NextProject /> */}
         <Projects />
         <Team />
         <NextProject />
         <Footer />
-      </main>
+      </main> */}
     </>
   );
 }
