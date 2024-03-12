@@ -23,7 +23,7 @@ const Header: FC = () => {
       >
         <div className="menu-icon"></div>
       </button>
-      <nav className="header__nav">
+      <nav className={isMenuOpen ? 'header__nav-open' : 'header__nav'}>
         <ul className="header__nav-list">
           <li className="header__nav-list--item">
             <Link className="nav__list-item--link" href="/projects">
