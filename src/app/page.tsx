@@ -21,7 +21,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        {/* <ImgSection
+        <ImgSection
           width={1600}
           height={600}
           url={'/img/interior3.jpg'}
@@ -44,7 +44,7 @@ export default function Home() {
         <Projects />
         <Team />
         <NextProject />
-        <Footer /> */}
+        <Footer />
       </main>
     </>
   );
