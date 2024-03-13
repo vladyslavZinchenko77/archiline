@@ -1,4 +1,4 @@
-
+@import "../../../styles/variables.scss";
 
 .about{
     display: flex;
@@ -8,21 +8,40 @@
         max-width: 768px;
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width: $mobile-max) {
+            flex-direction: column;
+            align-items: center;
+            padding: 12px;
+        }
     }
 }
 
 .about__title-wrap{
     width: 50%;
+    @media screen and (max-width: $mobile-max) {
+        width: 100%;
+    }
     
 }
 
 
 .about__text-wrap{
     width: 50%;
+    @media screen and (max-width: $mobile-max) {
+        width: 100%;
+        
+    }
     .about__text-item{
         padding-top: 24px;
+       
         &:first-child{
             padding: 0;
+        }
+         @media screen and (max-width: $mobile-max) {
+           
+            &:first-child{
+                padding-top: 24px;
+            }
         }
     }
 }
