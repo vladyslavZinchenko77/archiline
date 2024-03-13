@@ -1,4 +1,4 @@
-
+@import "../../../styles/variables.scss";
 
 .wedo{
     display: flex;
@@ -20,6 +20,9 @@
    width: 100%;
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: $mobile-max) {
+        flex-direction: column;
+    }
     .wedo__list-item{
         list-style: none;
         margin-top: 24px;
