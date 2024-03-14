@@ -1,3 +1,6 @@
+
+@import "../../../styles/variables.scss";
+
 .team{
     display: flex;
     justify-content: center;
@@ -6,20 +9,33 @@
         width: 1200px;
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width: $tablet-min) {
+            flex-direction: column;
+            padding: 12px;
+        }
     }
 }
 
 .team__text{
     width: 50%;
     
-    .team__text-title{}
-    .team__text-text{}
+    @media screen and (max-width: $tablet-min) {
+        width: 100%;
+    }
+    
+  
 }
 
 .team__list{
     width: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    @media screen and (max-width: $tablet-min) {
+        width: 100%;
+    }
+    @media screen and (max-width: 280px) {
+        grid-template-columns: 1fr;
+    }
     .team__list-item{
         list-style: none;
         display: flex;
