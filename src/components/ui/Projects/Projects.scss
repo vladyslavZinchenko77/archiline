@@ -5,6 +5,9 @@
         justify-content: center;
         background-color: $light-brown-color;
         padding: 24px 0 24px;
+        @media screen and (max-width: $tablet-min) {
+            padding: 12px;
+        }
     .projects__wrap{
         width: 1200px;
     }
@@ -12,7 +15,8 @@
 
 .projects__text-wrap{
     max-width: 600px;
-    .projects__title{}
+    
+
 
     .projects__text{
         margin-top: 12px;
@@ -24,12 +28,25 @@
     margin-top: 24px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    @media screen and (max-width: $tablet-min) {
+        grid-template-columns: 1fr;
+    }
   
     .projects__list-item{
         list-style: none;
+        padding:  0 12px 0;
+            &:last-child{
+                padding: 0;
+            }
+                @media screen and (max-width: $tablet-min) {
+                    padding: 12px 0 0 ;
+                }
         .projects__list-item--img{
-            max-width: 380px;
+            width: 100%;
             height: auto;
+            @media screen and (max-width: $tablet-min) {
+                width: 100%;
+            }
         }
     }
 }
