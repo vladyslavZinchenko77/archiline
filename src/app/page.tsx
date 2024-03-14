@@ -42,8 +42,8 @@ export default function Home() {
           alt="interior"
         />
         <Projects />
-        {/* <Team />
-        <NextProject />
+        <Team />
+        {/* <NextProject />
         <Footer /> */}
       </main>
     </>
