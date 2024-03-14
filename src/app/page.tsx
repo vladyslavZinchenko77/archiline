@@ -43,8 +43,8 @@ export default function Home() {
         />
         <Projects />
         <Team />
-        {/* <NextProject />
-        <Footer /> */}
+        <NextProject />
+        {/* <Footer /> */}
       </main>
     </>
   );

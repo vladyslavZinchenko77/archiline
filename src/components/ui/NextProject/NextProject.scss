@@ -10,11 +10,15 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @media screen and (max-width: $mobile-max) {
+            padding: 12px;
+            flex-direction: column;
+        }
     }
 }
 
 .next-proj__wrap{
-    .next-proj__text-text{}
+   
     .next-proj__text-title{
         max-width: 400px;
         margin-top: 12px;
@@ -23,4 +27,7 @@
 
 .next-proj__link{
     text-decoration: none;
+    @media screen and (max-width: $mobile-max) {
+        margin-top: 24px;
+    }
 }
