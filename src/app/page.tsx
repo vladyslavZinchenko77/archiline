@@ -44,7 +44,7 @@ export default function Home() {
         <Projects />
         <Team />
         <NextProject />
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </>
   );

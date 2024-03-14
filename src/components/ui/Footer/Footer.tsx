@@ -17,13 +17,13 @@ const Footer: FC = () => {
           </p>
         </div>
         <div className="footer__socials">
-          <a href="">
+          <a className="footer__socials-link" href="">
             <LinkedInIcon />
           </a>
-          <a href="">
+          <a className="footer__socials-link" href="">
             <InstagramIcon />
           </a>
-          <a href="">
+          <a className="footer__socials-link" href="">
             <FacebookIcon />
           </a>
         </div>
