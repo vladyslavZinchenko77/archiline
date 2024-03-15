@@ -21,7 +21,7 @@ const Projects: FC = () => {
               width={500}
               height={500}
               alt="project"
-              src={'/img/proj1.jpg'}
+              src={'/img/proj4.jpg'}
             />
           </li>
           <li className="projects__list-item">
@@ -30,7 +30,7 @@ const Projects: FC = () => {
               width={500}
               height={500}
               alt="project"
-              src={'/img/proj2.jpg'}
+              src={'/img/proj5.jpg'}
             />
           </li>
           <li className="projects__list-item">
@@ -39,7 +39,7 @@ const Projects: FC = () => {
               width={500}
               height={500}
               alt="project"
-              src={'/img/proj3.jpg'}
+              src={'/img/proj6.jpg'}
             />
           </li>
         </ul>
