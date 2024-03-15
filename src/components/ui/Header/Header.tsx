@@ -23,7 +23,31 @@ const Header: FC = () => {
       >
         <div className="menu-icon"></div>
       </button>
-      <nav className={isMenuOpen ? 'header__nav-open' : 'header__nav'}>
+      <nav className={'header__nav'}>
+        <ul className="header__nav-list">
+          <li className="header__nav-list--item">
+            <Link className="nav__list-item--link" href="/projects">
+              Projects
+            </Link>
+          </li>
+          <li className="header__nav-list--item">
+            <Link className="nav__list-item--link" href="/about">
+              About
+            </Link>
+          </li>
+          <li className="header__nav-list--item">
+            <Link className="nav__list-item--link" href="/team">
+              Team
+            </Link>
+          </li>
+          <li className="header__nav-list--item">
+            <Link className="nav__list-item--link" href="/contacts">
+              Contacts
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <nav className={isMenuOpen ? 'header__nav-open' : 'header__nav-close'}>
         <ul className="header__nav-list">
           <li className="header__nav-list--item">
             <Link className="nav__list-item--link" href="/projects">
