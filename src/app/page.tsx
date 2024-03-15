@@ -1,3 +1,6 @@
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
+
 import Image from 'next/image';
 
 import Header from '@/components/ui/Header';
@@ -10,6 +13,7 @@ import NextProject from '@/components/ui/NextProject';
 import Projects from '@/components/ui/Projects';
 import Team from '@/components/ui/Team';
 import Footer from '@/components/ui/Footer';
+import Loading from '@/components/common/Loading';
 
 import './globals.scss';
 import '../styles/common.scss';
@@ -17,6 +21,7 @@ import '../styles/common.scss';
 export default function Home() {
   return (
     <>
+      {/* <Loading /> */}
       <Header />
       <main>
         <Hero />

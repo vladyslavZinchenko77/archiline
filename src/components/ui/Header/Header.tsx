@@ -1,5 +1,6 @@
 'use client';
 import { FC, useState } from 'react';
+import { useBreakpoints } from '@/hooks/useBreakpoints';
 
 import Logo from '@/components/common/Logo';
 import Link from 'next/link';
@@ -8,6 +9,8 @@ import './Header.scss';
 
 const Header: FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const { isMobile } = useBreakpoints();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -23,7 +26,7 @@ const Header: FC = () => {
       >
         <div className="menu-icon"></div>
       </button>
-      <nav className={'header__nav'}>
+      {/* <nav className={'header__nav'}>
         <ul className="header__nav-list">
           <li className="header__nav-list--item">
             <Link className="nav__list-item--link" href="/projects">
@@ -46,8 +49,16 @@ const Header: FC = () => {
             </Link>
           </li>
         </ul>
-      </nav>
-      <nav className={isMenuOpen ? 'header__nav-open' : 'header__nav-close'}>
+      </nav> */}
+      <nav
+        className={
+          !isMobile
+            ? 'header__nav'
+            : isMenuOpen
+            ? 'header__nav-open'
+            : 'header__nav-close'
+        }
+      >
         <ul className="header__nav-list">
           <li className="header__nav-list--item">
             <Link className="nav__list-item--link" href="/projects">
