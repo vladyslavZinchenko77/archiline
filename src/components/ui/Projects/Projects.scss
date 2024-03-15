@@ -28,13 +28,14 @@
     margin-top: 24px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
     @media screen and (max-width: $tablet-min) {
         grid-template-columns: 1fr;
     }
   
     .projects__list-item{
         list-style: none;
-        padding:  0 12px 0;
+
             &:last-child{
                 padding: 0;
             }

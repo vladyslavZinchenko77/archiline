@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
-
+'use client';
+import { FC, useEffect, useState } from 'react';
 import Image from 'next/image';
 
 import Header from '@/components/ui/Header';
@@ -18,39 +17,53 @@ import Loading from '@/components/common/Loading';
 import './globals.scss';
 import '../styles/common.scss';
 
-export default function Home() {
+const Home: FC = () => {
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(true);
+    }, 3000);
+  }, []);
+
   return (
     <>
-      {/* <Loading /> */}
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <ImgSection
-          width={1600}
-          height={600}
-          url={'/img/interior3.jpg'}
-          alt="interior"
-        />
-        <WhatWeDo />
-        <ImgSection
-          width={1600}
-          height={600}
-          url={'/img/interior1.jpg'}
-          alt="interior"
-        />
-        <Customers />
-        <ImgSection
-          width={1600}
-          height={600}
-          url={'/img/interior2.jpg'}
-          alt="interior"
-        />
-        <Projects />
-        <Team />
-        <NextProject />
-        <Footer />
-      </main>
+      {!isLoading ? (
+        <Loading />
+      ) : (
+        <>
+          <Header />
+          <main>
+            <Hero />
+            <About />
+            <ImgSection
+              width={1600}
+              height={600}
+              url={'/img/interior3.jpg'}
+              alt="interior"
+            />
+            <WhatWeDo />
+            <ImgSection
+              width={1600}
+              height={600}
+              url={'/img/interior1.jpg'}
+              alt="interior"
+            />
+            <Customers />
+            <ImgSection
+              width={1600}
+              height={600}
+              url={'/img/interior2.jpg'}
+              alt="interior"
+            />
+            <Projects />
+            <Team />
+            <NextProject />
+            <Footer />
+          </main>
+        </>
+      )}
     </>
   );
-}
+};
+export default Home;
