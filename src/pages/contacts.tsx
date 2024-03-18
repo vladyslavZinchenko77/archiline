@@ -1,9 +1,14 @@
 import React, { FC } from 'react';
+import Link from 'next/link';
 import { Container, Typography, Grid, TextField, Button } from '@mui/material';
+import { ArrowBack } from '@mui/icons-material';
 
 const Contacts: FC = () => {
   return (
     <Container>
+      <Link href={'/'}>
+        <ArrowBack style={{ marginTop: 24 }} />
+      </Link>
       <Typography style={{ marginTop: 24 }} variant="h4" gutterBottom>
         Contact Us
       </Typography>
