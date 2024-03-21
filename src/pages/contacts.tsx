@@ -33,7 +33,11 @@ const Contacts: FC = () => {
               fullWidth
               margin="normal"
             />
-            <Button variant="contained" color="primary" fullWidth>
+            <Button
+              variant="contained"
+              color="primary"
+              style={{ width: 'auto', marginTop: 12 }}
+            >
               Send
             </Button>
           </form>
